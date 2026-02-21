@@ -1,1 +1,3 @@
-console.log("hello world!");
+import { log } from "./typewriter.js";
+
+log("hello world!");
