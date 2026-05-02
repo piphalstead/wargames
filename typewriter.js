@@ -6,7 +6,7 @@ import sleep from "./sleep.js";
 const log = async (logText) => {
   for (let i = 0; i < logText.length; i++) {
     process.stdout.write(logText[i]);
-    await sleep(2000);
+    await sleep(50);
   }
   console.log("");
 };
