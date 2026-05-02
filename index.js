@@ -7,13 +7,13 @@ var rl = readline.createInterface({
 
 });
 
-await log("login: ");
+await log("logon: ");
 
 rl.question("", async function(answer) {
   if(answer == "joshua"){
-    await log("hello Dr Falkon");
+    await log("greetings professor Falken");
   } else {
-    await log("login incorrect");
+    await log("logon incorrect");
     await log("[connetion terminated]");
   }
    rl.close();
